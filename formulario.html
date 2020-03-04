@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rafael Urbano Estepa Ej inline block</title>
+    <link rel="stylesheet" href="estilos/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&effect=	distressed-wood">
+    <link rel="stylesheet" type="text/css" href="estilos/estilosFormulario.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="font-effect-distressed-wood">Naturia</h1>
+    </header>
+    <main>
+
+        <div id="formulario">
+            <img src="./src/logo.png" alt="logo sitio">
+            <form action="#" target="" method="get" name="formDatosPersonales">
+
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required/>
+
+                <label for="apellidos">Apellidos</label>
+                <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tus apellidos" required/>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="email" required />
+
+                <label for="asunto">Asunto</label>
+                <input type="text" name="asunto" id="asunto" placeholder="motivo de la consulta" required/>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" for="mensaje" placeholder="describa el motivo de la consulta" maxlength="500"></textarea>
+
+                <input type="reset" value="Reiniciar">
+                <input type="submit" name="enviar" value="Enviar datos" />
+                <a href="index.html">Volver a la página principal</a>
+            </form>
+            <img src="./src/logo.png" alt="logo sitio">
+        </div>
+
+
+
+    </main>
+</body>
+<footer>
+    <div>
+        <ul>
+            <li>
+                <img class="svg" src="./src/user.svg" alt="acerca de">
+                <a href="#acerca">Acerca De</a></li>
+            <!--
+                    -->
+            <li>
+                <img class="svg" src="./src/legal.svg" alt="aviso legal">
+                <a href="#legal">Aviso legal</a>
+            </li>
+            <!--
+                    -->
+            <li>
+                <img class="svg" src="./src/publi.svg" alt="publicidad">
+                <a href="#publi">Publicidad</a>
+            </li>
+            <!--
+                    -->
+            <li>
+                <img class="svg" src="./src/contacto.svg" alt="acerca de">
+                <a href="./formulario.html">Contáctanos</a>
+            </li>
+        </ul>
+    </div>
+    <p>Todos los derechos reservados.</p>
+</footer>
+
+</html>
